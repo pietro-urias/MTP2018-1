@@ -1,3 +1,5 @@
+//Pietro Urias 
+//11721ECP001
 #include <stdio.h>
 
 int main ()
@@ -7,7 +9,7 @@ int main ()
     char P [255];
     int* pt = (int*) P;
     char* pc = (char*) &N;
-    printf("  1-> Codificar\n  2-> Descodificar\n\t");
+    printf("  1-> Codificar\n  2-> Decodificar\n\t");
     scanf("%d", &X);
     Y =getchar();
     switch(X)
