@@ -80,7 +80,7 @@ int main()
 				random = pot(m-1);
 				num+= y[i] *random;
 			}
-			printf("\n  Numero convertido em hexadecimal: %w", num);
+			printf("\n  Numero convertido em hexadecimal: %s", num);
 			break;}
 		case 3:{
 			printf("\n  Digite o numero em hexadecimal: ");
@@ -126,7 +126,7 @@ int main()
 		case 6:{
 			printf("\n  Digite o numero em decimal: ");
 			scanf("%d", &b);
-			printf("\n  Numero convertido em hexadecimal: %w", b);
+			printf("\n  Numero convertido em hexadecimal: %d", b);
 			break;}
 		case 7:{
 			printf("\n  Digite o numero em octal: ");
